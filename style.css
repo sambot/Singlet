@@ -108,6 +108,7 @@ body {
 	font-family: Georgia, serif;
 	font-size: 16px;
 	line-height: 26px;
+	color: #000;
 }
 strong, b {
 	font-weight: bold;
@@ -140,7 +141,7 @@ a:active {
 	color: #0f2b6d;
 }
 #page {
-	background: #eee;
+	background: #fff;
 }
 #colophon {
 	background: #000;
@@ -282,6 +283,10 @@ blockquote {
 }
 .entry-content ul {
 	list-style: square;
+}
+.entry-meta {
+	font-weight: 300;
+	font-size: 14px;
 }
 
 /* FOOTNOTES ----------------------- */
