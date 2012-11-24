@@ -251,11 +251,11 @@ h2 {
 .entry-content p, .entry-content ul, .entry-content ol, pre {
 	margin-bottom: 14px;
 }
-.entry-content p a {
+.entry-content a {
 	border-bottom: 1px dotted #0f2b6d;
 	text-decoration: none;
 }
-.entry-content p a:hover {
+.entry-content a:hover {
 	border-bottom: 2px solid #0f2b6d;
 	color: #0f2b6d;
 }
@@ -284,20 +284,37 @@ blockquote {
 .entry-content ul {
 	list-style: square;
 }
+.entry-content img {
+	background: #eee;
+	border: 1px solid #ccc;
+	padding: 6px;
+}
 .entry-meta {
 	font-weight: 300;
 	font-size: 14px;
+}
+.entry-meta a {
+	text-decoration: none;
+}
+.entry-meta a:hover {
+	border-bottom: 2px solid #0f2b6d;
 }
 
 /* FOOTNOTES ----------------------- */
 
 .footnotes {
-	margin-top: 20px;
+	margin: 20px 0 14px 0 !important;
 	padding-top: 20px;
 	border-top: 1px solid #CCC;
+	font-size: 14px;
+	line-height: 22px;
 }
-
-
+.footnotes li {
+	margin-left: 36px;
+}
+a.footnote-back-link {
+	border-bottom: 0;
+}
 
 
 
